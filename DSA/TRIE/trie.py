@@ -40,8 +40,5 @@ class Trie:
 
 
 trie = Trie()
-print(trie.insert("apple").length)
-trie.search("apple")
-print(trie.search("app"))
-print(trie.starts_with("app"))
-print(trie.search("app"))
+trie.insert("leetcode")
+print(trie.search("code"))
